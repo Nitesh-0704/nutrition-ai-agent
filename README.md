@@ -1,21 +1,66 @@
 🥗 Nutrition AI Agent
 
-An AI-powered nutrition assistant built with **Langflow** that provides interactive nutrition guidance based on user input.
+An AI-powered nutrition assistant built with **Langflow** that provides interactive and personalized nutrition guidance based on user input.
 
-🚀 Features
+✨ Features
 
 * 🤖 AI-powered conversational nutrition assistance
 * 🥗 Personalized nutrition guidance
-* 💬 Interactive natural-language conversations
-* ⚙️ Built using Langflow
-* 📦 Exportable Langflow workflow in JSON format
+* 🍽️ Meal-plan generation based on user requirements
+* ⚠️ Considers dietary restrictions and allergies provided by the user
+* 💬 Natural-language interaction
+* ⚙️ Built with Langflow
+* 📦 Importable Langflow workflow
 
 🛠️ Tech Stack
 
 * **Langflow**
-* **Large Language Model (LLM)**
-* **AI / Prompt Engineering**
+* **LLM / Generative AI**
+* **Prompt Engineering**
 * **JSON**
+
+📸 Demo
+
+Nutrition Information
+The agent can provide detailed information about foods and fruits based on the user's question.
+
+![Nutrition Details](nutrition-details.png)
+
+Personalized Meal Planning
+The agent can generate a personalized meal plan based on dietary preferences and restrictions.
+
+![AI Agent Working](ai-agent-working.png)
+
+⚙️ How to Use
+
+1. Install Langflow
+Install and open Langflow on your computer.
+
+2. Import the Flow
+Import the following file into Langflow:
+
+`Nutrition-AI-agent.json`
+
+3. Configure Your API Credentials
+Configure your own LLM/API credentials inside Langflow.
+
+> 🔐 API keys are not included in this repository. Never commit API keys, passwords, tokens, or other sensitive credentials to GitHub.
+
+4. Run the Agent
+Start the Langflow flow and interact with the Nutrition AI Agent through the chat interface.
+
+🧠 How It Works
+
+The user enters a nutrition-related question or requirement.
+The Langflow workflow processes the input using the configured AI model and generates a natural-language response.
+The agent can handle requests such as:
+
+* Food and nutrition information
+* Personalized meal planning
+* Dietary preferences
+* Food allergies and restrictions
+* High-protein meal suggestions
+* General nutrition-related questions
 
 📁 Project Structure
 
@@ -23,34 +68,26 @@ An AI-powered nutrition assistant built with **Langflow** that provides interact
 nutrition-ai-agent/
 │
 ├── Nutrition-AI-agent.json
+├── nutrition-details.png
+├── ai-agent-working.png
 └── README.md
 ```
 
-⚙️ How to Use
+🔐 Security
 
-1. Install and open **Langflow**.
-2. Import `Nutrition-AI-agent.json` into Langflow.
-3. Configure your own LLM/API credentials.
-4. Run the flow.
-5. Start interacting with the Nutrition AI Agent.
+The exported Langflow workflow was uploaded **without saving API keys**.
 
-> 🔐 API keys are not included in the exported JSON. Configure your own credentials locally.
-
-🧠 How It Works
-
-The agent receives a user's nutrition-related question, processes the request through the configured AI workflow, and generates a natural-language response.
-
-The Langflow workflow can be customized by modifying its nodes, prompts, models, and connections.
+Users should configure their own API credentials locally and should never upload secrets to a public repository.
 
 ⚠️ Disclaimer
-
-This project is intended for **general informational and educational purposes**. It is not a substitute for professional medical or dietary advice.
+This project is intended for **general informational and educational purposes only**.
+It is not a substitute for professional medical, dietary, or healthcare advice. Users should consult a qualified healthcare or nutrition professional for personalized medical or dietary guidance.
 
 👨‍💻 Author
 
 **Nitesh Kumar**
 
-GitHub: [Nitesh-0704](https://github.com/Nitesh-0704)
+Built with ❤️ using **Langflow and Generative AI**.
 
 ---
 
